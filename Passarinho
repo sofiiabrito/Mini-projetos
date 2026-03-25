@@ -1,0 +1,7 @@
+programa {
+  funcao inicio() {
+    
+    escreva(" (o <) \n")
+    escreva("(  v ) \n")
+    escreva("  ^ ^  \n")
+
