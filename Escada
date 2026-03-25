@@ -1,0 +1,6 @@
+programa {
+  funcao inicio() {
+    escreva("      _ \n")
+    escreva("    _|_| \n")
+    escreva("  _|_|_| \n")
+    escreva(" |_|_|_|")
