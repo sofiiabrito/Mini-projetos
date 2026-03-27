@@ -1,0 +1,15 @@
+rograma {
+  funcao inicio() {
+     
+     cadeia nomalu
+     real nota1 , nota2 , nota3
+     
+      escreva("Aluno(a):", nomalu )
+      leia(nomalu)
+      escreva("Suas notas foram: ", nota1 , nota2 , nota3)
+      leia( nota1, nota2, nota3)
+      escreva("Média das suas notas ", nomalu, ": ",(nota1 + nota2 + nota3)/3)
+
+
+    }
+}
