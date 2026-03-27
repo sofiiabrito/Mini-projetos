@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+     
+  real centigrados
+  escreva("Centígrados: ", centigrados)
+  leia( centigrados)
+  
+  escreva( "Fahrenheit: ",((9 * centigrados)+ 160)/5)
+
+
+  
+    }
+}
