@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+  inteiro hora , min , seg
+
+  escreva(" Informe o horário atual \n")
+  escreva("Hora: \n")
+  leia(hora)
+  escreva("Minutos: \n")
+  leia(min)
+  escreva("Segundos: \n")
+  leia(seg)
+  escreva("Já se passaram " , (hora*60)*60 + min*60 + seg , " segundos no dia de hoje." )
+
