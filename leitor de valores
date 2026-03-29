@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+
+  inteiro a, b, c
+  
+  escreva("Digite A: ")
+  leia( a )
+  escreva("Digite B: ")
+  leia( b )
+  escreva("Digite C: ")
+  leia( c )
+
+  se(a+b<c){
+  escreva(a+b , " É menor que ", c)
+  }senao{
+  escreva("xxxxxxxx")
+  } 
