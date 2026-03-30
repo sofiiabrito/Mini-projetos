@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    
+    real idade
+    escreva("informe sua idade: ", idade)
+    leia(idade)
+    se(idade<18){
+    escreva("Você é menor de idade")
+    }senao{ 
+    escreva("Você é maior de idadade")}
+
+  }
+}
