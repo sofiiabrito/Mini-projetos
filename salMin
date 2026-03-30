@@ -1,0 +1,12 @@
+programa {
+   inclua biblioteca Matematica -->mat
+  funcao inicio() {
+    
+    real salario
+    
+    escreva("Quanto você recebe?: ", salario)
+    leia( salario)
+    escreva("Você recebe aproximadamente ", salario / 1621, " salários mínimos.")
+    mat.arredondar(salario/1621,2)
+
+
