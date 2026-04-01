@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    
+    real num
+    escreva("Digite um número: ")
+    leia (num)
+    se(num>0){
+    escreva("O numero é positivo ",num*2)}senao
+    { escreva("O numero é negativo ",num*3)}
+
+  }
+}
