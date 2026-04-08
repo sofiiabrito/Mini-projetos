@@ -1,6 +1,6 @@
 package java0804;
 import java.util.Scanner;
-public class javajava {
+public class Javajava {
 	public static void main(String args[]) {
 		 Scanner segpordia = new Scanner(System.in);
 		  
