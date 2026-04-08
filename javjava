@@ -1,0 +1,20 @@
+package java0804;
+import java.util.Scanner;
+public class javajava {
+	public static void main(String args[]) {
+		 Scanner segpordia = new Scanner(System.in);
+		  
+		 int hora , min, seg;
+		 
+		 System.out.println("Informe a hora atual: ");
+		 hora = segpordia.nextInt();
+		 System.out.println("Informe o minuto atual: ");
+		 min = segpordia.nextInt();
+		 System.out.println("Informe o segundo atual: ");
+		 seg = segpordia.nextInt();
+		 
+		 System.out.println("Segundos totais: "+((hora * 60)*60 + min*60 + seg) );
+		 
+		 segpordia.close();
+		 
+	}}
